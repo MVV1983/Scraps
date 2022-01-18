@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/navi"
+            app:startDestination="@id/mainBoardFragment">
+
+    <fragment android:id="@+id/mainBoardFragment"
+              android:name="com.example.myscraps.View.MainBoardFragment"
+              android:label="Your Scraps"
+              tools:layout="@layout/fragment_main_board">
+        <action android:id="@+id/action_mainBoardFragment_to_addScrapsFragment"
+                app:destination="@id/addScrapsFragment"/>
+    </fragment>
+    <fragment android:id="@+id/addScrapsFragment"
+              android:name="com.example.myscraps.View.AddScrapsFragment"
+              android:label="Add new scraps"
+              tools:layout="@layout/fragment_add_scraps">
+        <action android:id="@+id/action_addScrapsFragment_to_mainBoardFragment"
+                app:destination="@id/mainBoardFragment"/>
+    </fragment>
+</navigation>

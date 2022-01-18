@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_border"
+        tools:context=".View.UpdateFragment">
+
+
+    <TextView
+            android:id="@+id/title_update_task"
+            android:text="@string/update_task_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16sp"
+            android:textColor="#FFFFFF"
+            android:textSize="26sp"
+            android:gravity="center"
+            android:fontFamily="@font/goudysto"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+    />
+
+
+        <EditText
+                android:id="@+id/update_name"
+                android:layout_width="wrap_content"
+                android:layout_height="50sp"
+                android:inputType="textPersonName"
+                android:paddingStart="10dp"
+                android:textColorHint="#FFFFFF"
+                android:textColor="#FFFFFF"
+                android:ems="16"
+                android:background="@drawable/button_border_black"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="16dp"
+                app:layout_constraintTop_toBottomOf="@+id/title_update_task"/>
+
+    <EditText
+            android:id="@+id/update_description"
+            android:layout_width="wrap_content"
+            android:layout_height="50sp"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            android:textColorHint="#FFFFFF"
+            android:layout_marginTop="16sp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/button_border_black"
+            android:ems="16"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/update_name"/>
+
+
+    <Button
+            android:id="@+id/saveScrapsButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/save"
+            android:textColor="#212121"
+            android:gravity="center"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/button_border_white"
+            app:layout_constraintEnd_toStartOf="@+id/cancelUpdateTaskButton"
+            app:layout_constraintTop_toBottomOf="@+id/update_description"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="16dp"/>
+    <Button
+            android:id="@+id/cancelUpdateTaskButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:textColor="#00a69c"
+            android:gravity="center"
+            android:background="@drawable/button_border_black"
+            app:layout_constraintEnd_toEndOf="@+id/update_description"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="16dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

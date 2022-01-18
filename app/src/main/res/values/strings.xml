@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MyScraps</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_scraps">Добавить</string>
+    <string name="input_description">Введите описание</string>
+    <string name="input_new_task">Новая задача</string>
+    <string name="add_new_task_title">Новая задача</string>
+    <string name="update_task_title">Обновить задачу</string>
+    <string name="cancel">Отменить</string>
+    <string name="save">Сохранить</string>
+    <string name="date_task">Дата создания задачи</string>"
+</resources>
