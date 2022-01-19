@@ -1,4 +1,8 @@
 # MyScraps mobile app
 
-![dashboard](https://user-images.githubusercontent.com/51223584/149758175-447bff26-95e6-44a2-bb3a-42a95b304cf8.jpg)![2](https://user-images.githubusercontent.com/51223584/147747086-ce6fe93e-05df-413c-96e6-6ae3677d881b.jpg)
-![3](https://user-images.githubusercontent.com/51223584/147747151-6c1df484-a323-4d5f-9120-1192e43b42e2.jpg)![update_task](https://user-images.githubusercontent.com/51223584/149758375-a55ddd39-0aed-4135-b167-a7cb91fbb18e.jpg)
+
+![1](https://user-images.githubusercontent.com/51223584/150080562-f974f202-8c32-4830-b51d-35d9fb870a97.jpg)
+![2](https://user-images.githubusercontent.com/51223584/150080575-103686e0-7796-4edf-a06c-cc6dc004c7fe.jpg)
+![3](https://user-images.githubusercontent.com/51223584/150080585-23da4447-c334-4c85-b717-d3fe1d1b4b02.jpg)
+![4](https://user-images.githubusercontent.com/51223584/150080592-f3802af6-3713-4217-912d-6eaf498e7d26.jpg)
+![5](https://user-images.githubusercontent.com/51223584/150080598-3aac10ec-1fc7-41d7-8d2a-d6e8cccda4a1.jpg)
