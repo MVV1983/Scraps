@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
 
 
     fun exitDialog() {
-        AlertDialog.Builder(this).apply {
+        AlertDialog.Builder(this,R.style.AlertDialogStyle).apply {
             setTitle("Please confirm.")
             setMessage("Are you want to exit the app?")
 
